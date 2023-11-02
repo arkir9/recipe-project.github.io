@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RecipeIo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <a class="name" href="index.html"><span>Tasty</span>Tales</a>
+      <div class="search-container">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search recipes..."
+        />
+        <button type="submit" class="search-button">
+          <img src="search.png" />
+        </button>
+      </div>
+    </nav>
+    <div class="meal-wrapper">
+      <section class="intro">
+        <h1>
+          Welcome to Tasty Tales - Where Every Dish is a Masterpiece in the Making
+        </h1>
+        <p>
+          Discover new recipes and cooking techniques from around the world!
+        </p>
+      </section>
+      <section id="meal-result">
+        <h2></h2>
+        <div id="meal">
+          <!-- Meals will be inserted here -->
+          <!-- <div class="meal-item">
+            <div class="meal-img">
+              <img src="wepik-export-20231028175725cJYA.jpeg" />
+            </div>
+            <div class="meal-name">
+              <h3>chicken</h3>
+              <a href="#" class="recipe-btn">Get a recipe</a>
+            </div>
+          </div> -->
+          <!-- meal ends -->
+          <!-- Meals will be inserted here -->
+          <!-- <div class="meal-item">
+            <div class="meal-img">
+              <img src="wepik-export-20231028175725cJYA.jpeg" />
+            </div>
+            <div class="meal-name">
+              <h3>chicken</h3>
+              <a href="#" class="recipe-btn">Get a recipe</a>
+            </div>
+          </div> -->
+          <!-- meal ends -->
+          <!-- Meals will be inserted here -->
+          <!-- <div class="meal-item">
+            <div class="meal-img">
+              <img src="wepik-export-20231028175725cJYA.jpeg" />
+            </div>
+            <div class="meal-name">
+              <h3>chicken</h3>
+              <a href="#" class="recipe-btn">Get a recipe</a>
+            </div>
+          </div> -->
+          <!-- meal ends -->
+        </div>
+      </section>
+
+      <div class="meal-details">
+        <!-- recipe btn -->
+        <button type="button" name="button" class="btn recipe-close-btn"
+        id="recipe-close-btn"><i class="fas fa-times"></i>Close</button>
+        <!-- meal content -->
+        <div class="meal-details-content">
+          <!-- <h2 class="recipe-title">Meals Name Here</h2>
+          <p class="recipe-category">Category Name</p>
+          <div class="recipe-instruct">
+            <h3>Instructions:</h3>
+            <p>wordsssssssssssssssss</p>
+            <p>wordsssssssssssssssss</p>
+          </div>
+          <div class="recipe-meal-img"></div>
+          <img src="search.png">
+        </div>
+        <div class="recipe-link">
+          <a href="#" target="_blank">Watch video</video></a>
+        </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container">
+      <div class="review-section">
+        <h3>Reviews:</h3>
+
+        <form id="review-form">
+          <label for="description">Add a review...</label>
+          <textarea id="reviews" placeholder="eg:very tasty..."></textarea>
+          <button type="submit" class="publish-btn">Publish</button>
+        </form>
+
+
+      </div>
+      <div class="rating-section">
+        <ul id="review-list">
+          <li>Replace with actual reviews</li>
+          <li>From the server</li>
+        </ul>
+      </div>
+    </div> -->
+    <div class="container">
+      <div class="left-column">
+        <h3>Add Recipe</h3>
+
+<form class="form">
+  <label for="recipe-name">Name:</label>
+  <input type="text" id="recipe-name" placeholder="e.g muffins..." required>
+  <br />
+
+  <label for="recipe-ingredients">Ingredients:</label>
+  <textarea id="recipe-ingredients" placeholder="add ingridients..." rows="5" required></textarea>
+  <br />
+
+ <label for="recipe-method">Method:</label>
+  <textarea id="recipe-method" placeholder="insert Method" rows="5" required></textarea>
+  <br />
+
+  <button type="submit" class="search-button">Add Recipe</button>
+</form>
+      </div>
+      <div class="right-column">
+        <div id="recipe-list"></div>
+        <div id="no-recipes">You have no recipes.</div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
