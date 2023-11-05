@@ -1,6 +1,6 @@
 
 # Project Title
-Recipify
+Tasty Tales
 
 
 

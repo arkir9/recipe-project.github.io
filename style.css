@@ -308,3 +308,23 @@ label {
 .recipe ul li {
   margin-bottom: 5px;
 }
+
+.delete-button:hover {
+  transform: scale(1.1);
+  background-color: #4caf50;
+}
+.delete-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #f5f5f5;
+  color: #232D3F;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  width: fit-content;
+  text-align: center;
+  height: fit-content;
+}
